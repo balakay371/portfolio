@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Josefin+Sans&display=swap" rel="stylesheet">
+<script type="text/javascript">
+function autoscroll(scrollcap){
+var scrollcount = 0;
+    scroll = setInterval(function(){ window.scrollBy(0, 10); scrollcount++; if(scrollcount == scrollcap){clearInterval(scroll)} }, 10);
+}
+</script>
+<style type = 'text/css'>
+body {
+    background-color: black;
+}
+#titleh1, #introh1 {
+font-size: 70px;
+color: black;
+position: relative;
+top: 50px;
+font-family: 'Arvo', serif;
+}
+#introh1 {
+top: 45px;
+font-size: 45px;
+}
+#titlediv, #introdiv, #finaldiv {
+background-color: gold;
+height: 200px;
+width: 110%;
+margin-left: -50px;
+margin-top: -50px;
+text-align: center;
+}
+#introdiv {
+margin-top: -34px;
+height: 150px;
+}
+#finaldiv {
+margin-top: 600px;
+height: 150px;
+}
+#titleunder {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#train, #guitar, #home {
+background-color: gold;
+  border: solid 3px black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  width: 220px;
+}
+#train:hover, #guitar:hover, #home:hover {
+  cursor: pointer;
+border: solid 3px gold;
+background-color: black;
+color: gold;
+}
+#train {
+  left: 457px;
+bottom: 52px;
+}
+#guitar {
+  left: 889px;
+  bottom: 0px;
+}
+#home {
+  left: 672px;
+  bottom: 104px;
+}
+#bee {
+position: relative;
+display: block;
+margin: 0 auto;
+margin-top: -50px;
+width: 750px;
+}
+#introvid {
+display: block;
+margin: 0 auto;
+margin-top: 120px;
+border: 8px solid gold;
+}
+#introvidp {
+position: relative;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+color: gold;
+}
+#introvidpd {
+width: 640px;
+text-overflow: clip;
+text-align: center;
+margin: 0 auto;
+}
+#finaldiv {
+
+}
+</style>
+</head>
+<body>
+<div id="titlediv">
+<h1 id ="titleh1">Blake's Animations</h1>
+<h3 id="titleunder">Learning to Rotoscope!</h3>
+    </div>
+<div id="buttons">
+<form>
+<input type="button" id="guitar" value="Final Product" onclick="autoscrollFinal()" />
+</form>
+<form>
+<input type="button" id="train" value="Introduction" onclick="autoscroll(81)" />
+</form>
+<form>
+<input type="button" id="home" value="Home" onclick="window.location.href='index.html'" />
+</form>
+</div>
+<img id="bee" src="https://media.giphy.com/media/xGepLzOEXNJh6/giphy.gif"/>
+<div id="introdiv">
+<h1 id ="introh1">Introduction to Rotoscoping Task</h1>
+    
+<video id="introvid" width="640" height="360" controls>
+  <source src="trainfinal.mp4" type="video/mp4">
+</video>
+<div id="introvidpd">
+<p id="introvidp">
+As an introductory task, we were required to rotoscope a 3-second video of a toy train moving along a track. Above is my completed rotoscope.
+I used Adobe Animate to rotoscope the video, and
+I learnt a lot about rotoscoping and how to use Animate. However my rotoscoped video looks very unrefined and badly drawn, as I encountered a lot of problems with the actual drawing, such as trackpad problems and time constraints.
+</p>
+</div>
+</div>
+<div id="finaldiv">
+<h1 id ="introh1">Final Product</h1>
+    </div>
+</body>
+</html>
