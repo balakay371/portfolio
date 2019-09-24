@@ -1,0 +1,123 @@
+@keyframes rave {
+    0% {filter: hue-rotate(0deg) blur(0px); transform: scale(1)}
+    12.5% {filter: hue-rotate(90deg) blur(7.5px); transform: scale(1.25)}
+    25% {filter: hue-rotate(180deg) blur(15px); transform: scale(1)}
+    37.5% {filter: hue-rotate(270deg) blur(7.5px); transform: scale(1.25)}
+    50% { filter: hue-rotate(360deg) blur(0px); transform: scale(1)}
+    62.5% {filter: hue-rotate(270deg) blur(7.5px); transform: scale(1.25)}
+    75% {filter: hue-rotate(180deg) blur(15px); transform: scale(1)}
+    87.5% {filter: hue-rotate(90deg) blur(7.5px); transform: scale(1.25)}
+    100% { filter: hue-rotate(0deg) blur(0px); transform: scale(1)}
+}
+body {
+background-color: black;
+animation: none;
+}
+#titleh1, #introh1, #hoeckh1 {
+font-size: 70px;
+color: black;
+position: relative;
+top: 50px;
+font-family: 'Arvo', serif;
+}
+#titlediv, #introdiv, #hoeckeldiv {
+background-color: gold;
+height: 200px;
+width: 104%;
+display: block; margin: 0 auto;
+margin-left: -2%;
+margin-top: -50px;
+text-align: center;
+}
+#titleunder {
+font-family: 'Josefin Sans', sans-serif;
+}
+#introdiv {
+margin-top: -34px;
+height: 150px;
+}
+#hoeckeldiv {
+width: 104%;
+margin-left: -2%;
+margin-top: 700px;
+height: 150px;
+position: absolute;
+}
+#hoeckh1 {
+top: 20px;
+font-size: 45px;
+}
+#introh1 {
+top: 45px;
+font-size: 45px;
+}
+.balakay {
+border: solid 6px gold;
+position: relative;
+top: 105px;
+}
+#bk1, #bk2, #bk3 {
+position: relative;
+}
+#bk1 {
+margin: 0 auto;
+right: 20%;
+top: 0px;
+width: 279px;
+text-overflow: clip;
+text-align: center;
+}
+#bk2 {
+margin: 0 auto;
+top: -472px;
+width: 279px;
+text-overflow: clip;
+text-align: center;
+}
+#bk3 {
+margin: 0 auto;
+left: 20%;
+top: -1019px;
+width: 279px;
+text-overflow: clip;
+text-align: center;
+}
+p {
+font-size: 20px;
+font-family: "Arvo", sans-serif;
+color: gold;
+top: 100px;
+position: relative;
+}
+.hoeck {
+position: relative;
+top: 70px;
+border: solid 6px gold;
+}
+#hoeckpd  {
+position: relative;
+margin: 0 auto;
+top: -5px;
+width: 860px;
+text-overflow: clip;
+text-align: center;
+}
+#hoeckfd {
+position: relative;
+margin: 0 auto;
+top: 1300px;
+text-align: center;
+width: 660px;
+text-overflow: clip;
+text-align: center;
+}
+#hoeckf {
+position: relative;
+margin: 0 auto;
+}
+#hoeckpf {
+position: relative;
+top: 60px;
+font-size: 23px;
+padding-bottom: 30px;
+}
